@@ -1,7 +1,15 @@
-import keyword
+A=[]
 
-value=1 if 2>2 else 0
+i=0
+while i<10:
+    x=float(input("x= "))
+    A=A+[x]
+    i=i+1
 
-print(value)
 
-print('hello') if 2<4 else print('Bye')
+print(A)
+
+del A[len(A)-4]
+
+print(A)
+
